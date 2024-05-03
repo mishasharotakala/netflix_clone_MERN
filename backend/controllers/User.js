@@ -1,4 +1,6 @@
-const Register = async (req, res) => {
+import { User } from '../models/userModel.js';
+
+export const Register = async (req, res) => {
     try {
         const { fullName, email, password } = req.body;
         // Check if the user already exists in the database

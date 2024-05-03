@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 // api
 app.use('/api/v1/user', userRoute);
-// http://localhost:5000/api/v1/user/register
+// http://localhost:8080/api/v1/user/register
 
 app.listen(process.env.PORT, ()=>{
     console.log(`Server is running on port ${process.env.PORT}`);

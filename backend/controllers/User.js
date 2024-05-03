@@ -26,6 +26,8 @@ const Register = async (req, res) => {
             message: "User registered successfully",
             success: true 
         });
-        
-    } catch (error) {}
+
+    } catch (error) {
+        console.log(error);
+    }
 }
